@@ -1,0 +1,60 @@
+
+/* latin */
+@font-face {
+    font-family: 'Boogaloo';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Boogaloo-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+  }
+
+
+
+body{
+    font-family: "Boogaloo-Regular";
+    font-size:17px;
+    
+}
+
+
+.table{
+    
+    width:740px;
+    
+    margin-left:-100px;
+    margin-right:-50px;
+   
+   
+} 
+
+.p{
+    font-family: "Boogaloo-Regular";
+    
+}
+#title{
+    width:740px;
+    margin-left:-100px;
+    margin-right:-50px;
+    font-size: 23px;
+    background-color: #47748b;
+    margin-top: 5px;
+    height:10px;
+    padding-bottom:40px;
+}
+
+.h6{
+    font-family: "Boogaloo-Regular";
+}
+
+#title_press{
+    width:740px;
+    margin-left:-100px;
+    margin-right:-50px;
+    font-size: 23px;
+    background-color: #47748b;
+    margin-top: 0px;
+    height:10px;
+    padding-bottom:25px;
+}
+.b{
+    font-family: "Boogaloo";
+}

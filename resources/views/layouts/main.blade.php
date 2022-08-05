@@ -42,7 +42,7 @@
   <!-- Template Main CSS File -->
   <link type="text/css" href="{{url('/assets/css/style.css')}}" rel="stylesheet">
   <script src="/js/scripts.js"></script>
-  <script src="/js/agend.js"></script>
+ 
   <link rel="stylesheet" href="/css/fullcalendar.css">
 
   <!-- =======================================================
@@ -246,18 +246,7 @@
           </ul>
         </li><!-- End Exercícios Nav -->
 
-        <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#agend-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-calendar-minus-fill" style="color:#353D41"></i><span>Agenda</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="agend-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="/agend">
-                <i class="bi bi-circle"></i><span>Visualizar</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Charts Nav -->
+        
       @else
         <li class="nav-item">
           <a class="nav-link collapsed" data-bs-target="#exercises-nav" data-bs-toggle="collapse" href="#">
